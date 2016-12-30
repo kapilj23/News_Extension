@@ -1,0 +1,21 @@
+{
+	"manifest_version":2,
+	
+	"name":"News Plugin",
+	"description": "This extension will show you the latest news with headlines and small description",
+	"version":"1.0",
+	
+	
+	"browser_action":{
+	"default_icon":"news_icon.png",
+	"default_popup":"NewsApp.html"
+    },
+	"chrome_url_overrides":{
+	"newtab":"NewsApp.html"
+	},
+	
+	
+    "permissions":[
+	"activeTab"
+    ]
+}
