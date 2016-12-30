@@ -1,0 +1,143 @@
+
+        .container{
+            
+            height: 100px;
+            width: 700px;
+            box-shadow: 1px 1px 12px #888888;
+            border-radius: 25px;
+			position: absolute;
+			left: 25%;
+			animation-duration: 2s;
+			animation-name: slidedown;
+			background-color: lightskyblue;
+			overflow: hidden;
+           
+           }
+		
+		@keyframes slidedown{
+			
+			
+			from{
+				transform: translateY(-100px);
+				
+			}
+			to{
+				transform: translateY(0px);
+			}
+			
+		}
+		.box{
+			
+			
+			position: relative;
+			height: 90px;
+			width: 500px;
+		}
+        
+        .image_container{
+            
+            background-color: white;
+            height: 90px;
+            width: 90px;
+            border-radius: 100px;
+            position: relative;
+            box-shadow: 1px 1px 2px #888888;
+            background-size: cover;
+	        top: 4px;
+			left: 13px;
+			
+			
+            
+        }
+        
+    
+        
+        .news_container{
+            
+          
+            position: relative;
+            top:-100;
+			left: 140;
+            color:blue;
+			 width:550px;
+			font-size: 15px;
+			word-wrap: break-word;
+			
+			
+            
+        }
+    
+        .desc{
+            
+            
+             position: relative;
+            top: -110;
+            left: 140;
+            color:white;
+            width:550px;
+			word-wrap: break-word;
+			
+        }
+.news_container:hover{
+			cursor: pointer;
+			color:blue;
+			
+		}
+.drop_button{
+	
+	height: 25px;
+	width: 30px;
+	background-color:lightskyblue;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 1px 1px 12px #888888;
+	border:none;
+	margin-left: 400px;
+	margin-top: 100px;
+	animation-duration: 2s;
+	position: absolute;
+	animation-name: slidedown;
+	text-align: center;
+	
+}
+.arrow{
+	height: 20px;
+	width: 20px;
+	margin-top: 4px;
+	 transition:transform 0.3s linear;
+}
+.news_option{
+	
+	width:300px;
+	height: auto;
+}
+
+.newsOpt{
+		position: absolute;
+		height: auto;
+		width: 250px;
+			margin-left: 400px;
+	margin-top: 100px;
+	box-shadow: 1px 1px 12px #888888;
+		
+	}
+	.image{
+		width: 90px;
+		height: 60px;
+		
+	}
+	.news_name{
+		position: relative;
+		display: inline;
+		top:-20px;
+		font-size: 20;
+	}
+	.div_container{
+		width:250px;
+		height: 60px;
+		
+	}
+.div_container:hover{
+	cursor: pointer;
+	
+}
